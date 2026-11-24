@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+testpaths = ["."]
+python_files = ["test_*.py"]
+addopts = "-q -rN"
+norecursedirs = [".venv", "venv", ".git", "solutions"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore:Using `httpx`"]
