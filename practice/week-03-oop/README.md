@@ -55,4 +55,4 @@
 7. Композиция или наследование: `Car` и `Engine` — что выбрать и почему?
 
 ## Готово, если
-`pytest week-03-oop` зелёный; репозиторий `expense-tracker` публичный, с README и тестами.
+`pytest practice/week-03-oop` зелёный; репозиторий `expense-tracker` публичный, с README и тестами.

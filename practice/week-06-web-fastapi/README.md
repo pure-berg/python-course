@@ -14,7 +14,7 @@
 ### День 2–3 — FastAPI: учебное API задач (с автотестами)
 - [ ] Пройди [официальный туториал FastAPI](https://fastapi.tiangolo.com/tutorial/) до разделов про Dependencies включительно.
 - [ ] Pydantic v2: модели, `Field(min_length=..., ge=..., le=...)`, `model_dump(exclude_unset=True)`.
-- [ ] Реализуй API по спецификации ниже в [app.py](app.py). Проверка: `pytest week-06-web-fastapi`.
+- [ ] Реализуй API по спецификации ниже в [app.py](app.py). Проверка: `pytest practice/week-06-web-fastapi`.
 - [ ] Запусти руками: `fastapi dev week-06-web-fastapi/app.py` (или `uvicorn app:app --reload` из папки) и открой `/docs` — Swagger UI генерируется сам.
 
 **Спецификация учебного API (хранение — в памяти):**
@@ -61,4 +61,4 @@
 7. Что такое CORS?
 
 ## Готово, если
-`pytest week-06-web-fastapi` зелёный; проект №2 запускается через `docker compose up`, есть регистрация/логин и тесты.
+`pytest practice/week-06-web-fastapi` зелёный; проект №2 запускается через `docker compose up`, есть регистрация/логин и тесты.

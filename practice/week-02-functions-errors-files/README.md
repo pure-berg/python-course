@@ -54,4 +54,4 @@
 6. Зачем виртуальное окружение?
 
 ## Готово, если
-`pytest week-02-functions-errors-files` зелёный, анализатор логов запушен с тестами.
+`pytest practice/week-02-functions-errors-files` зелёный, анализатор логов запушен с тестами.

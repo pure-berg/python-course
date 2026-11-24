@@ -1,4 +1,4 @@
-"""Общие настройки автопроверки.
+"""Общие настройки автопроверки задач из practice/.
 
 * Нерешённая задача (функция, которая всё ещё делает `raise NotImplementedError`)
   считается ПРОПУЩЕННОЙ, а не упавшей — поэтому CI зелёный, пока ты не начал задачу.
@@ -8,9 +8,6 @@ from collections import defaultdict
 from pathlib import Path
 
 import pytest
-
-ROOT = Path(__file__).parent
-
 
 @pytest.hookimpl(hookwrapper=True)
 def pytest_runtest_makereport(item, call):
@@ -26,9 +23,9 @@ def pytest_runtest_makereport(item, call):
 
 
 def _section(report) -> str:
-    path = Path(report.fspath) if hasattr(report, "fspath") else None
+    """Раздел = имя папки, где лежит файл теста (например, week-01-basics)."""
     try:
-        return path.resolve().relative_to(ROOT).parts[0]
+        return Path(report.fspath).parent.name
     except Exception:
         return "?"
 

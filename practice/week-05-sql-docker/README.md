@@ -56,4 +56,4 @@
 8. `git merge` vs `git rebase`?
 
 ## Готово, если
-`pytest week-05-sql-docker` зелёный; Postgres поднимается через compose; трекер расходов работает на SQLAlchemy, изменения влиты через PR.
+`pytest practice/week-05-sql-docker` зелёный; Postgres поднимается через compose; трекер расходов работает на SQLAlchemy, изменения влиты через PR.

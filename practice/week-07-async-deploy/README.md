@@ -22,7 +22,7 @@
 - [ ] Логирование в проекте: `logging` с уровнями, без `print`.
 
 ### День 4 — CI/CD и качество кода
-- [ ] GitHub Actions в репозитории проекта: на каждый push — `ruff check`, `ruff format --check`, `pytest` (с Postgres через `services:`). Пример CI — в [.github/workflows/check.yml](../.github/workflows/check.yml) этого курса.
+- [ ] GitHub Actions в репозитории проекта: на каждый push — `ruff check`, `ruff format --check`, `pytest` (с Postgres через `services:`). Пример CI — в [.github/workflows/check.yml](../../.github/workflows/check.yml) этого курса.
 - [ ] `pre-commit` с ruff.
 - [ ] Бейдж статуса CI в README проекта.
 
@@ -32,7 +32,7 @@
 - [ ] Ссылку на живое демо — в README проекта.
 
 ### День 6 — резюме и GitHub
-- [ ] Пройди чек-лист [career/README.md](../career/README.md): резюме, профиль GitHub, README проектов.
+- [ ] Пройди чек-лист [career/README.md](../../career/README.md): резюме, профиль GitHub, README проектов.
 - [ ] **Первые 10–15 откликов.** Не жди «готовности» — её не будет, собеседования сами покажут пробелы.
 
 ### День 7 — отдых

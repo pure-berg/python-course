@@ -49,4 +49,4 @@
 7. Что такое GIL (обзорно; подробнее — неделя 7)?
 
 ## Готово, если
-`pytest week-04-advanced-algorithms` зелёный и решено ≥ 5 задач на LeetCode.
+`pytest practice/week-04-advanced-algorithms` зелёный и решено ≥ 5 задач на LeetCode.

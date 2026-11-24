@@ -7,10 +7,10 @@
 ## План по дням
 
 ### День 1 — рабочее место
-- [ ] Открой этот репозиторий в Codespaces (см. [главный README](../README.md#как-работать-с-любого-устройства)) **или** установи Python 3.12 + VS Code локально.
+- [ ] Открой этот репозиторий в Codespaces (см. [README практики](../README.md)) **или** установи Python 3.12 + VS Code локально.
 - [ ] Терминал: `pwd`, `ls`, `cd`, `mkdir`, `touch`, `cat`, `rm`, `mv`, `cp`, стрелка ↑, Tab. Час практики — [MIT Missing Semester, лекция 1](https://missing.csail.mit.edu/2020/course-shell/).
 - [ ] Git: пройди первые уровни [Learn Git Branching](https://learngitbranching.js.org/?locale=ru_RU) (раздел «Основы»).
-- [ ] Сделай первый коммит в этот репозиторий: впиши результат входного теста в раздел «Прогресс» главного README, `git add`, `git commit`, `git push`.
+- [ ] Сделай первый коммит в этот репозиторий: реши первую задачу ниже, `git add`, `git commit`, `git push`.
 
 ### День 2 — типы, строки, условия
 - [ ] `int`, `float`, `str`, `bool`, `None`; приведение типов; `input()`/`print()`; f-строки.
@@ -54,6 +54,6 @@
 5. Что делают `git status`, `git log`, `git diff`?
 
 ## Готово, если
-- `pytest week-01-basics` — все задачи зелёные;
+- `pytest practice/week-01-basics` — все задачи зелёные;
 - мини-проект запушен;
 - на «Проверь себя» отвечаешь без подсказок.
